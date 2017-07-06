@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Elementos generales</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../assetsGenerales/css/font-awesome.css">
+	<link rel="stylesheet" href="../assetsGenerales/css/estilos.css">
+</head>
+<body>
+
+<h1>Guía de estilos Mundo Joven - FUV</h1>
+<!--/*****MENU DE NAVEGACIÓN*****/-->
+    <h2>Menú de navegación</h2>
+   
+	<nav id="navPrincipal">
+		<ul>
+			<li>
+				<a href="#"><i class="fa fa-home"></i>Inicio</a>
+			</li>
+			<li>	
+				<a href="#"><i class="fa fa-child"></i>Cliente</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-database"></i>Mis Seguimientos</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-line-chart"></i>Mis Reportes</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-plug"></i>Intranet</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-paint-brush"></i>Herramientas</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-wrench"></i>Administración</a>
+			</li>
+			<li>
+				<a href="#"><i class="fa fa-money"></i>Tarifas</a>
+			</li>
+		</ul>
+	</nav>
+<!--/*****MENU DE NAVEGACIÓN*****/-->
+
+<!--/*****TIPO DE CAMBIO*****/-->
+	<div id="tipoDeCambio">
+		<div>
+			<img src="img/tipoCambio/imgTipo.png" alt="Tipo de cambio">
+		</div>
+		<div class="nombreTipo">
+			<p>Intelesis</p>
+			<p>Sabre</p>
+		</div>
+		<div>
+			<img src="img/tipoCambio/dolar.png" alt="Dolar">
+		</div>
+		<div>
+			<p>$18.50</p>
+			<p>$18.50</p>
+		</div>
+		<div>
+			<img src="img/tipoCambio/euro.png" alt="Euro">
+		</div>
+		<div>
+			<p>$18.50</p>
+			<p>$18.50</p>
+		</div>
+	</div>
+<!--/*****TIPO DE CAMBIO*****/-->
+
+<!--/******BUSCADOR******/-->
+    <h2 style="margin-top:50px;">Buscadores</h2>
+    
+	<div class="buscador">
+		<div class="buscar">
+			<img src="img/buscador/lupaBuscador.png" alt="Buscar">
+		</div>
+		<input type="text" placeholder="Nombre del cliente, teléfono, email o id cliente">
+	</div>
+<!--/******BUSCADOR******/-->
+
+<!--/******DATOS DE USUARIO EN PASOS******/-->
+	<h2>DISPLAY DE DATOS DE USUARIO EN PASOS</h2>
+	<div id="usuarioPasos">
+		<header>
+			<h3>Información del cliente</h3>
+		</header>
+		<section class="datos">
+			<div><p><img src="../assetsGenerales/img/ticketNumeroAzul.png" alt="Número cliente">QUO2418</p></div>
+			<div class="sepDatosUser"></div>
+			<div><p><img src="../assetsGenerales/img/userAzul.png" alt="Nombre cliente">Luis Carlos Portillo Alvarez</p></div>
+			<div class="sepDatosUser"></div>
+			<div><p><img src="../assetsGenerales/img/mailAzul.png" alt="Correo cliente">luis@dsindigo.mx</p></div>
+			<div class="sepDatosUser"></div>
+			<div><p><img src="../assetsGenerales/img/relojAzul.png" alt="Status cliente">En proceso</p></div>
+			<div class="sepDatosUser"></div>
+			<div class=""><p><img src="../assetsGenerales/img/globalAzul.png" alt="Balance Global">Balance global<i class="fa fa-chevron-down displayBalance" aria-hidden="true"></i></p></div>
+		</section>
+		<section class="balanceGlobal">
+			
+		</section>
+	</div>
+<!--/******DATOS DE USUARIO EN PASOS******/-->
+
+<hr>
+
+<!--/******BOTONES******/-->
+	<h2>Botones</h2>
+	<button class="buttonGreen">Botón Verde <img src="../assetsGenerales/img/flechaDerecha.png" alt=""></button>
+	<button class="buttonBlue">Botón Verde <img src="../assetsGenerales/img/flechaDerecha.png" alt=""></button>
+	<button class="buttonEmpty">Botón Verde <img src="../assetsGenerales/img/flechaDerecha.png" alt=""></button>
+	<button class="buttonRed">Botón verde <img src="../assetsGenerales/img/flechaDerecha.png" alt=""></button>
+<!--/******BOTONES******/-->
+
+<hr>
+
+<!--/******TABS******/-->
+	<h2>TABS</h2>
+	<div class="tabs">
+
+		<!--/**Tabs nav**/-->
+		<ul class="nav nav-tabs">
+		  	<li class="active">
+		  		<a data-toggle="tab" href="#home">Home</a>
+		  	</li>
+		  	<li>
+		  		<a data-toggle="tab" href="#menu1">Menu 1</a>
+		  	</li>
+		  	<li>
+		  		<a data-toggle="tab" href="#menu2">Menu 2</a>
+		  	</li>
+		</ul>
+		<!--/**Tabs nav**/-->
+
+		<div class="tab-content">
+
+			<!--/**Contenido Tab**/-->
+		  	<div id="home" class="tab-pane fade in active">
+		    	<h3>HOME</h3>
+		    	<p>Some content.</p>
+		  	</div>
+		  	<!--/**Contenido Tab**/-->
+
+		  	<!--/**Contenido Tab**/-->
+		    <div id="menu1" class="tab-pane fade">
+		    	<h3>Menu 1</h3>
+		    	<p>Some content in menu 1.</p>
+		    </div>
+		    <!--/**Contenido Tab**/-->
+
+		    <!--/**Contenido Tab**/-->
+		    <div id="menu2" class="tab-pane fade">
+		    	<h3>Menu 2</h3>
+		    	<p>Some content in menu 2.</p>
+		  	</div>
+		  	<!--/**Contenido Tab**/-->
+
+		</div>
+	</div>
+<!--/******TABS******/-->
+
+<hr>
+
+<!--/******FORMULARIOS******/-->
+	<h2>Formularios</h2>
+	<div class="seccionGris">
+		<form action="">
+			<div class="fila">
+				<div class="itemForm">
+					<h3>Large XXX</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Large XXX" class="inputXXXLarge"/>
+				</div>
+				<div class="itemForm">
+					<h3>Large XX</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Large XX" class="inputXXLarge" />
+				</div>
+			</div>
+
+			<div class="fila">
+				<div class="itemForm">
+					<h3>Large X</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Large X" class="inputXLarge"/>
+				</div>
+				<div class="itemForm">
+					<h3>Large</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Large" class="inputLarge" />
+				</div>
+				<div class="itemForm">
+					<h3>Medium</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Medium" class="inputMedium" />
+				</div>
+				<div class="itemForm">
+					<h3>Semi Medium</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Semi Medium" class="inputSemimedium" />
+				</div>
+
+				<div class="itemForm">
+					<h3>Small</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Small" class="inputSmall" />
+				</div>
+			</div>
+
+			<div class="fila">
+				<div class="itemForm">
+					<h3>Normal</h3>
+					<label for="monto">$</label>
+					<input type="text" name="monto" placeholder="Normal" class="inputNormal"/>
+				</div>
+			</div>
+
+			<div class="fila">
+				<div class="itemForm">
+					<h3>Select</h3>
+					<label for="monto">$</label>
+					<select name="terminal">
+						<option value="Santander12M">Elemento</option>
+						<option value="Santander12M">Elemento</option>
+						<option value="Santander12M">Elemento</option>
+						<option value="Santander12M">Elemento</option>
+					</select>
+				</div>
+
+				<div class="itemForm">
+					<h3>Radio Buttons Horizontales</h3>
+					<div class="radioContainer">
+						<label for="monto">Género</label>
+						<div>
+							<input type="radio" name="monto"/>
+							<small>Masculino</small>
+						</div>
+						<div>
+							<input type="radio" name="monto"/>
+							<small>Femenino</small>
+						</div>
+					</div>
+				</div>
+
+                
+                
+			</div>
+		</form>
+	</div>
+<!--/******FORMULARIOS******/-->
+
+<hr>
+
+<!--/******DETALLE PASAJERO DISPLAY******/-->
+	<h2>DETALLE PASAJERO DISPLAY</h2>
+	<div class="pasajero">
+
+		<div class="datosPasajero">
+			<p class="numeroPasajero">1</p>
+			<div class="nombrePasajero">
+				<p>Luis Carlos Portillo Alvarez</p>
+				<div class="itemForm">
+					<select name="datosUsuario" class="datosUsuarios inputXLarge">
+						<option value="">-- Usar datos de cliente --</option>
+						<option value="">Luis Carlos Portillo Alvarez</option>
+					</select>
+				</div>
+			</div>
+		</div>
+
+		<div class="detalleDatosPasajeros">
+			<div class="itemSeccion">
+				<h3>Edad</h3>
+				<p>30</p>
+			</div>
+			<div class="itemSeccion">
+				<h3>Género</h3>
+				<p>F</p>
+			</div>
+			<div class="itemSeccion">
+				<h3>Fecha de Nacimiento</h3>
+				<p>23/06/1987</p>
+			</div>
+		</div>
+
+	</div>				
+<!--/******DETALLE PASAJERO DISPLAY******/-->
+
+<hr>
+
+<!--/******ITEMS SECCION******/-->
+	<h2>ITEM SECCIÓN</h2>
+	<div class="seccionGris">
+		<div class="fila">
+			<div class="itemSeccion">
+				<h3>Fecha de inicio</h3>
+				<p>30/07/2016, 9:15 hrs.</p>
+			</div>
+			<div class="itemSeccion">
+				<h3>Fecha de inicio</h3>
+				<p>30/07/2016, 9:15 hrs.</p>
+			</div>
+			<div class="itemSeccion">
+				<h3>Fecha de inicio</h3>
+				<p>30/07/2016, 9:15 hrs.</p>
+			</div>
+			<div class="itemSeccion">
+				<h3>Régimen de ocupación</h3>
+				<p>Solo alimentos. All incluisive.</p>
+			</div>
+		</div>
+	</div>
+<!--/******ITEMS SECCION******/-->
+
+<hr>
+
+<!--/******SECCION ELEMENTO******/-->
+	<h2>SECCION ELEMENTO</h2>
+	<section class="seccionElemento">
+		<header>
+			<h3>Título de la seccion</h3>
+		</header>
+		<article class="seccionElementoNormal">
+			<p>Contenido Normal</p>
+		</article>
+		<article class="seccionElementoPrimario">
+			<p>Contenido Primario</p>
+		</article>
+		<article class="seccionElementoSecundario">
+			<p>Contenido Secundario</p>
+		</article>
+	</section>
+<!--/******SECCION ELEMENTO******/-->
+
+<hr>
+
+<!--/******TABLA******/-->
+	<h2>TABLAS</h2>
+	<section class="tabla">
+		<table>
+			<tr>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+			</tr>
+			<tr>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+			</tr>
+			<tr>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+			</tr>
+		</table>
+	</section>
+<!--/******TABLA******/-->
+
+<!--/******TABLA SECUNDARIA******/-->
+	<section class="tabla tablaSec">
+		<table>
+			<tr>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+			</tr>
+			<tr>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+			</tr>
+			<tr>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+				<td>Título de la tabla</td>
+			</tr>
+		</table>
+	</section>
+<!--/******TABLA SECUNDARIA******/-->
+
+<!--/******TABLA SEGUROS******/-->
+	<h2>TABLA DE SEGUROS</h2>
+	<div class="tablaSeguros">
+		<table>
+			<tr>
+				<td colspan="2">pasajeros</td>
+				<td colspan="4">con isic</td>
+				<td colspan="3">sin isic</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td>Responsable</td>
+				<td>Super <img src="img/likeSeguro.png" alt="Recomendación Seguro" class="likeSeguro"></td>
+				<td>Budget</td>
+				<td>Comprar ISIC</td>
+				<td>Responsable</td>
+				<td>Super  <img src="img/likeSeguro.png" alt="Recomendación Seguro" class="likeSeguro"></td>
+				<td>Budget</td>
+			</tr>
+
+			<!--/*********DESACTIVE**********/-->
+			<tr class="seguroDesactivado">
+				<td>
+					<input type="checkbox" name="seleccionar">
+				</td>
+				<td>
+					<p class="textGrande">21</p>
+					<p class="textChico">Años</p>
+				</td>
+				<td><input type="radio" name="seguro" value="1"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="2"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="3"/>$2,000.00</td>
+				<td><input type="checkbox" name="seleccionar" class="comprarISIC"></td>
+				<td><input type="radio" name="seguro" value="4"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="5"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="6"/>$2,000.00</td>
+			</tr>
+
+			<!--/*********ACTIVE**********/-->
+			<tr>
+				<td>
+					<input type="checkbox" name="seleccionar">
+				</td>
+				<td>
+					<p class="textGrande">21</p>
+					<p class="textChico">Años</p>
+				</td>
+				<td><input type="radio" name="seguro" value="1"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="2"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="3"/>$2,000.00</td>
+				<td><input type="checkbox" name="seleccionar" class="comprarISIC"></td>
+				<td><input type="radio" name="seguro" value="4"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="5"/>$2,000.00</td>
+				<td><input type="radio" name="seguro" value="6"/>$2,000.00</td>
+			</tr>
+		</table>
+	</div>
+<!--/******TABLA SEGUROS******/-->
+
+<hr>
+
+<!--/******TOOLTIP******/-->
+	<h2>TOOLTIP</h2>
+	<div class="tooltipGeneral">
+		<div class="toolTexto"><p>Agregue información</p></div>
+		<div class="toolFlecha"></div>
+	</div>
+<!--/******TOOLTIP******/-->
+
+   <h2>GUIA DE COLORES</h2>
+   <section id="guiaDeColores">
+       
+       <div>
+           <p>AZUL MARINO</p>
+           <p>#004b6d</p>
+           <div class="AzulMarino"></div>
+       </div>
+       
+       <div>
+           <p>AZUL CLARO</p>
+           <p>#0081bc</p>
+           <div class="azulClaro"></div>
+       </div>
+       
+       <div>
+           <p>AZUL CLARO (background)</p>
+           <p>#dff4fd</p>
+           <div class="azulClaroBackground"></div>
+       </div>
+       
+       <div>
+           <p>GRIS CLARO</p>
+           <p>#f1f1f1</p>
+           <div class="grisClaro"></div>
+       </div>
+       
+       <div>
+           <p>GRIS MEDIO</p>
+           <p>#bbbbbb</p>
+           <div class="grisMedio"></div>
+       </div>
+       
+       <div>
+           <p>GRIS FUERTE</p>
+           <p>#b9b9b9</p>
+           <div class="grisFuerte"></div>
+       </div>
+       
+       <div>
+           <p>GRIS (background)</p>
+           <p>#ebebeb</p>
+           <div class="grisBackground"></div>
+       </div>
+       
+       <div>
+           <p>ROJO</p>
+           <p>#e12336</p>
+           <div class="rojo"></div>
+       </div>
+       
+       <div>
+           <p>VERDE</p>
+           <p>#069d37</p>
+           <div class="verde"></div>
+       </div>
+       
+       <div>
+           <p>AMARILLO</p>
+           <p>#f0c000</p>
+           <div class="amarillo"></div>
+       </div>
+       
+   </section>
+   
+   <section>
+       
+   </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+</body>
+</html>

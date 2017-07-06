@@ -1,0 +1,395 @@
+body
+{
+	font-family: 'montserratregular';
+	padding:0;
+	margin:0;
+}
+
+hr
+{
+	clear: both;
+	margin:40px 0;
+}
+
+/*
+	COLORES USADOS: 
+	Azul Marino = #004b6d
+	Azul Claro = #0081bc
+	Azul Claro background = #dff4fd
+	Gris Claro = #f1f1f1
+	Gris Medio = #bbbbbb
+	Gris Background = #ebebeb
+	Rojo = #e12336
+	Verde = #069d37
+	Amarillo = #f0c000
+*/
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.eot');
+    src: url('../fonts/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+         url('../fonts/montserrat-regular-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montseBold';
+    src: url('../fonts/montserrat-bold-webfont-webfont.eot');
+    src: url('../fonts/montserrat-bold-webfont-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/montserrat-bold-webfont-webfont.woff2') format('woff2'),
+         url('../fonts/montserrat-bold-webfont-webfont.woff') format('woff'),
+         url('../fonts/montserrat-bold-webfont-webfont.ttf') format('truetype'),
+         url('../fonts/montserrat-bold-webfont-webfont.svg#montseBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yhmree');
+  src:  url('../fonts/icomoon.eot?yhmree#iefix') format('embedded-opentype'),
+    	url('../fonts/icomoon.ttf?yhmree') format('truetype'),
+    	url('../fonts/icomoon.woff?yhmree') format('woff'),
+   		url('../fonts/icomoon.svg?yhmree#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-flechaDown:before {
+  content: "\e900";
+}
+.icon-flechaUp:before {
+  content: "\e901";
+}
+.icon-pencil:before {
+  content: "\e905";
+}
+
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-checkmark:before {
+  content: "\ea10";
+}
+
+/*****GENERALES*****/
+	.seccionGris
+	{
+		background: #f1f1f1;
+		display:flex;
+		justify-content:space-between;
+		margin:30px auto;
+		padding:25px;
+		width:82%;
+	}
+/*****GENERALES*****/
+
+/*****BOTONES*****/
+button
+{
+	border-radius: 5px;
+	cursor:pointer;
+	font-family: "montserratregular";
+	height: 30px;
+	transition: all 1s ease;
+}
+
+	button img
+	{
+		margin-left:6px;
+	}
+
+.buttonBlue
+{
+	background: #004b6d;
+	border:0;
+	color:white;
+	transition: all 1s ease;
+}
+
+.buttonBlue:hover
+{
+	background: #004b6d;
+	color:#0081bc;
+}
+
+.buttonEmpty
+{
+	background: none;
+	border:1px solid #004b6d;
+	transition: all 1s ease;
+}
+
+.buttonEmpty:hover
+{
+	background: #004b6d;
+	color:white;
+}
+
+.buttonGreen
+{
+	background:rgb(0,202,0);
+	border:none;
+	color:white;
+}
+
+.buttonGreen:hover
+{
+	background:rgba(0,202,0,.5);
+}
+
+.buttonRed
+{
+	background: #ff0000;
+	color:white;
+	border:none;
+	transition: all 1s ease;
+}
+
+.buttonRed:hover
+{
+	background:#ff8f82;
+}
+/*****BOTONES*****/
+
+/******BUSCADOR******/
+.buscador
+{
+	border-radius: 5px;
+	display:flex;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	overflow: hidden;
+	width: 570px;
+
+}
+	.buscador input,
+	.buscador .buscar
+	{
+		padding:4px 8px;
+	}
+	.buscador input
+	{
+		background: #f1f1f1;
+		border:none;
+		flex-grow:2;
+		margin:0;
+	}
+	.buscador .buscar
+	{
+		background: #004b6d;
+		cursor: pointer;
+		display: flex;
+	}
+		.buscador .buscar img
+		{
+			align-self: center; 
+		}
+/******BUSCADOR******/
+
+/******FORMS******/
+	input
+	{
+		background: #dff4fd;
+		border:none;
+		font-family: "montserratregular";
+		padding:4px;
+	}
+
+	.inputMedium
+	{
+		width: 100px;
+	}
+
+	.inputSmall
+	{
+		width: 50px;
+	}
+
+/******FORMS******/
+
+/******NAVEGACIÓN PRINCIPAL******/
+
+	#navPrincipal
+	{
+		background: #336f8a;
+		height: 25px;
+		width: 100%;
+	}
+
+		#navPrincipal a
+		{
+			color:white;
+			display: block;
+			font-size: 14px;
+			text-decoration: none;
+		}
+
+		#navPrincipal ul 
+		{
+			display: flex;
+			list-style: none;
+			justify-content: space-between;
+			margin:0 auto;
+			width: 1100px;
+		}
+
+			#navPrincipal ul li
+			{
+				padding:3px 0;
+			}
+
+			#navPrincipal ul li:hover
+			{
+				border-bottom:2px solid white;
+			}
+
+			#navPrincipal ul img
+			{
+				display: none;
+			}
+
+		#navPrincipal .fa
+		{
+			margin-right: 7px;
+		}
+
+/******NAVEGACIÓN PRINCIPAL******/	
+
+/******TABLA******/
+	.tabla
+	{
+		border:1px solid #004b6d;
+		border-radius: 20px;
+		color:#004b6d;
+		
+		overflow: hidden;
+		width: 100%;
+	}
+
+		.tabla header
+		{
+			align-items: center;
+			background: #004b6d;
+			color:white;
+			display: flex;
+			justify-content: space-between;
+			padding:3px 14px;
+		}
+			.tabla header h3
+			{
+				font-size: 17px;
+				font-weight: normal;
+				padding:0;
+				margin:0;
+			}
+
+		.tabla article
+		{
+			background: #ebebeb;
+			padding:3px 14px;
+		}
+
+		.tabla .tablaNormal
+		{
+			background: white;
+		}
+		
+		.tabla .tablaEspecial
+		{
+			background: #004b6d
+			color:white;
+		}
+
+		.tabla .tablaPrimario
+		{
+			background: #dff4fd;
+		}
+
+		.tabla .tablaSecundario
+		{
+			background: #ebebeb;
+		}
+/******TABLA******/
+
+/*****TIPO DE CAMBIO*****/
+#tipoDeCambio
+{
+	background: #e4ede9;
+	border:1px solid #004b6d;
+	border-top:none;
+	border-radius: 0 0 12px 12px;
+	clear: both;
+	color:#004b6d;
+	display: flex;
+	font-size:14px;
+	float: right;
+	justify-content: space-between;
+	margin-right:30px;
+	padding:4px;
+	width:264px;
+}
+	#tipoDeCambio .nombreTipo
+	{
+		font-family:'montseBold'; 
+		text-transform: uppercase;
+	}
+	#tipoDeCambio p
+	{
+		margin:0;
+		padding:0;
+	}
+/*****TIPO DE CAMBIO*****/
+
+/******TOOLTIP******/
+.tooltip
+{
+	display:inline-block;
+}
+	.tooltip .toolTexto
+	{
+		background: #55b7f3;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.4);
+		-moz-box-shadow:    3px 3px 5px 0px rgba(50, 50, 50, 0.4);
+		box-shadow:         3px 3px 5px 0px rgba(50, 50, 50, 0.4);
+		border-radius:.4em;
+		color:white;
+		overflow: hidden;
+		padding:.5em;
+	}
+		.tooltip .toolTexto p
+		{
+			margin:0;
+			padding:0;
+		}
+
+	.tooltip .toolFlecha
+	{	
+	    border-right: 10px solid transparent;
+	    border-top: 20px solid #55b7f3;
+	    border-left: 10px solid transparent;
+	    border-bottom: 10px solid transparent;
+	    margin-left:4px;
+	    width: 0;
+	    height: 0;
+		}
+/******TOOLTIP******/
